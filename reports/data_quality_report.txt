@@ -1,0 +1,179 @@
+PREMIER LEAGUE DATA QUALITY REPORT
+=============================================
+Total rows: 380
+Total columns: 120
+Exact duplicate rows: 0
+Duplicate fixtures: 0
+
+MISSING VALUES
+---------------------------------------------
+BWH: 141 (37.11%)
+BWD: 141 (37.11%)
+BWA: 141 (37.11%)
+BWCD: 141 (37.11%)
+BWCA: 141 (37.11%)
+BWCH: 141 (37.11%)
+WHH: 91 (23.95%)
+WHD: 91 (23.95%)
+WHCH: 91 (23.95%)
+WHCD: 91 (23.95%)
+WHCA: 91 (23.95%)
+WHA: 91 (23.95%)
+1XBA: 9 (2.37%)
+1XBD: 9 (2.37%)
+1XBH: 9 (2.37%)
+P<2.5: 3 (0.79%)
+BFE<2.5: 3 (0.79%)
+BFE>2.5: 3 (0.79%)
+PC>2.5: 3 (0.79%)
+P>2.5: 3 (0.79%)
+PC<2.5: 3 (0.79%)
+BFD: 1 (0.26%)
+BFH: 1 (0.26%)
+BFA: 1 (0.26%)
+
+DATA TYPES
+---------------------------------------------
+Div: str
+Date: str
+Time: str
+HomeTeam: str
+AwayTeam: str
+FTHG: int64
+FTAG: int64
+FTR: str
+HTHG: int64
+HTAG: int64
+HTR: str
+Referee: str
+HS: int64
+AS: int64
+HST: int64
+AST: int64
+HF: int64
+AF: int64
+HC: int64
+AC: int64
+HY: int64
+AY: int64
+HR: int64
+AR: int64
+B365H: float64
+B365D: float64
+B365A: float64
+BWH: float64
+BWD: float64
+BWA: float64
+BFH: float64
+BFD: float64
+BFA: float64
+PSH: float64
+PSD: float64
+PSA: float64
+WHH: float64
+WHD: float64
+WHA: float64
+1XBH: float64
+1XBD: float64
+1XBA: float64
+MaxH: float64
+MaxD: float64
+MaxA: float64
+AvgH: float64
+AvgD: float64
+AvgA: float64
+BFEH: float64
+BFED: float64
+BFEA: float64
+B365>2.5: float64
+B365<2.5: float64
+P>2.5: float64
+P<2.5: float64
+Max>2.5: float64
+Max<2.5: float64
+Avg>2.5: float64
+Avg<2.5: float64
+BFE>2.5: float64
+BFE<2.5: float64
+AHh: float64
+B365AHH: float64
+B365AHA: float64
+PAHH: float64
+PAHA: float64
+MaxAHH: float64
+MaxAHA: float64
+AvgAHH: float64
+AvgAHA: float64
+BFEAHH: float64
+BFEAHA: float64
+B365CH: float64
+B365CD: float64
+B365CA: float64
+BWCH: float64
+BWCD: float64
+BWCA: float64
+BFCH: float64
+BFCD: float64
+BFCA: float64
+PSCH: float64
+PSCD: float64
+PSCA: float64
+WHCH: float64
+WHCD: float64
+WHCA: float64
+1XBCH: float64
+1XBCD: float64
+1XBCA: float64
+MaxCH: float64
+MaxCD: float64
+MaxCA: float64
+AvgCH: float64
+AvgCD: float64
+AvgCA: float64
+BFECH: float64
+BFECD: float64
+BFECA: float64
+B365C>2.5: float64
+B365C<2.5: float64
+PC>2.5: float64
+PC<2.5: float64
+MaxC>2.5: float64
+MaxC<2.5: float64
+AvgC>2.5: float64
+AvgC<2.5: float64
+BFEC>2.5: float64
+BFEC<2.5: float64
+AHCh: float64
+B365CAHH: float64
+B365CAHA: float64
+PCAHH: float64
+PCAHA: float64
+MaxCAHH: float64
+MaxCAHA: float64
+AvgCAHH: float64
+AvgCAHA: float64
+BFECAHH: float64
+BFECAHA: float64
+
+CORE COLUMN CHECK
+---------------------------------------------
+Date: 0 missing
+HomeTeam: 0 missing
+AwayTeam: 0 missing
+FTHG: 0 missing
+FTAG: 0 missing
+FTR: 0 missing
+
+NUMERIC SUMMARY
+---------------------------------------------
+         FTHG    FTAG    HTHG    HTAG  ...  AvgCAHH  AvgCAHA  BFECAHH  BFECAHA
+count  380.00  380.00  380.00  380.00  ...   380.00   380.00   380.00   380.00
+mean     1.51    1.42    0.75    0.61  ...     1.93     1.94     1.98     2.01
+std      1.28    1.19    0.88    0.83  ...     0.08     0.08     0.09     0.09
+min      0.00    0.00    0.00    0.00  ...     1.73     1.75     1.75     1.81
+25%      1.00    1.00    0.00    0.00  ...     1.86     1.87     1.91     1.93
+50%      1.00    1.00    1.00    0.00  ...     1.92     1.94     1.98     2.01
+75%      2.00    2.00    1.00    1.00  ...     1.99     2.01     2.05     2.07
+max      7.00    6.00    4.00    5.00  ...     2.13     2.14     2.21     2.30
+
+[8 rows x 112 columns]
